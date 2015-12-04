@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.loafer</groupId>
+  <artifactId>servlet3.x-webapp</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>servlet3.x-webapp</name>
+  <url>http://maven.apache.org</url>
+
+  <build>
+    <finalName>servlet3.x-webapp</finalName>
+  </build>
+
+    <dependencies>
+        <!-- servlet3.x 目录结构演示-->
+        <dependency>
+            <groupId>com.github.loafer</groupId>
+            <artifactId>servlet3.x-directory-structure</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+
+        <!-- servlet3.x 动态注册servlet
+        <dependency>
+            <groupId>com.github.loafer</groupId>
+            <artifactId>servlet3.x-servletContainerInitializer</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        -->
+
+        <!--<dependency>-->
+            <!--<groupId>com.github.loafer</groupId>-->
+            <!--<artifactId>simple-distributed-sessions-manager</artifactId>-->
+            <!--<version>1.0-SNAPSHOT</version>-->
+        <!--</dependency>-->
+    </dependencies>
+</project>

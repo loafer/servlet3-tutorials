@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		 http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+
+
+    <!-- 动态注册servlet方法二
+    <listener>
+        <listener-class>com.github.loafer.servlet.CustomServletContextListener</listener-class>
+    </listener>
+    -->
+
+    <!--
+    <servlet>
+        <servlet-name>greeting</servlet-name>
+        <servlet-class>com.github.loafer.servlet.GreetingServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>greeting</servlet-name>
+        <url-pattern>/greeting</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>hello</servlet-name>
+        <servlet-class>com.github.loafer.servlet.HelloServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>hello</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+
+        <filter>
+            <filter-name>distributable Session Filter</filter-name>
+            <filter-class>com.github.loafer.distributed.httpsession.filter.DistributableSessionFilter</filter-class>
+            <init-param>
+                <param-name>loadBalancingStrategy</param-name>
+                <param-value>sticky</param-value>
+            </init-param>
+            <init-param>
+                <param-name>sessionTimeout</param-name>
+                <param-value>2</param-value>
+            </init-param>
+        </filter>
+
+        <filter-mapping>
+            <filter-name>distributable Session Filter</filter-name>
+            <url-pattern>/*</url-pattern>
+        </filter-mapping>
+        -->
+</web-app>
